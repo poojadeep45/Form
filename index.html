@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="" class="signup">
+            <h2>Sign Up</h2>
+            <div><label for="name">Name</label></div>
+            <div><input type="text" id="name" name="username" placeholder="Enter your name" ></div>
+            <br>
+
+            <div><label for="email">Email</label></div>
+            <div><input type="email" id="email" name="userEmail" placeholder="Enter your email" required></div>
+            <br>
+
+            <div><label for="password">Password</label></div>
+            <div><input type="password" id="password" name="userPassword" placeholder="Enter your Password" required></div>
+            <br>
+
+            <div><label for="accountType">Choose your account type:</label></div>
+            <div class="radio">
+                <input type="radio" name="accountType" value="Personal">Personal
+                <input type="radio" name="accountType" value="Business">Business
+            </div>
+            <br>
+
+            <div class="checkbox">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to the <a href="#">Privacy Policy</a></label>
+            </div>
+            <br>
+
+
+            <button type="submit">Submit</button>
+            <br>
+
+            <p>Already have an account? <a href="signIn.html">Sign In</a></p>
+
+        </form>
+
+</body>
+</html>

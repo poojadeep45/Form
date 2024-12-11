@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 236, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.signup {
+    background-color: aquamarine;
+    padding: 20px;
+    border: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    border-radius: 10px;
+}
+.signup h2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup label {
+    /* text-align: left; */
+    /* margin-bottom: 5px; */
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.signup input[type="text"] ,.signup input[type="email"], .signup input[type="password"] {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #131313;
+}
+
+.radio label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 7px;
+}
+
+.checkbox {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.checkbox  label {
+    font-size: 0.9rem;
+}
+
+.checkbox a {
+    color: rgb(40, 26, 127);
+}
+
+button {
+    background-color: rgb(115, 115, 215);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+p a {
+    color: rgb(44, 15, 82);
+}
+
+p a:active{
+    color: blue;
+}
+
+
+
+
+
